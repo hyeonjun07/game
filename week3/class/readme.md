@@ -16,3 +16,11 @@
 
 ## number2.c 숫자 단위 출력하기2
 <img width="734" alt="Example5-4-4" src="https://github.com/hyeonjun07/game/assets/107782350/da3cbfd9-b083-4bf8-985d-d1b8ba4e9b61">
+
+
+## digital.c 디지털 숫자 출력하기
+<img width="735" alt="Example6-1-1" src="https://github.com/hyeonjun07/game/assets/107782350/a4ebeb4a-6d3c-4e7f-9a71-873b56573b49">
+
+
+## 
+
