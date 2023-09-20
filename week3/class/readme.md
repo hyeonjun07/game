@@ -8,3 +8,7 @@
 
 ## number.c 숫자 단위 출력하기
 <img width="734" alt="Example5-4-3" src="https://github.com/hyeonjun07/game/assets/107782350/ff6a9d86-ce6c-45d3-a61e-df0c56c1a7b5">
+
+
+## cost2.c 금액입력하기(오름차순)
+<img width="734" alt="Example5-4-1" src="https://github.com/hyeonjun07/game/assets/107782350/48e82fac-9a44-47b3-97a7-68217bd9ea42">
