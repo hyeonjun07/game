@@ -22,5 +22,7 @@
 <img width="735" alt="Example6-1-1" src="https://github.com/hyeonjun07/game/assets/107782350/a4ebeb4a-6d3c-4e7f-9a71-873b56573b49">
 
 
-## 
+## digital2.c 블록 이동하기
+<img width="735" alt="Example6-3-1" src="https://github.com/hyeonjun07/game/assets/107782350/c668bae3-e7b7-47c7-9a40-e7887e7c3a8c">
+
 
