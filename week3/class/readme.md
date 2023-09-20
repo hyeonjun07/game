@@ -12,3 +12,7 @@
 
 ## cost2.c 금액입력하기(오름차순)
 <img width="734" alt="Example5-4-1" src="https://github.com/hyeonjun07/game/assets/107782350/48e82fac-9a44-47b3-97a7-68217bd9ea42">
+
+
+## number2.c 숫자 단위 출력하기2
+<img width="734" alt="Example5-4-4" src="https://github.com/hyeonjun07/game/assets/107782350/da3cbfd9-b083-4bf8-985d-d1b8ba4e9b61">
