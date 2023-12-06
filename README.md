@@ -6,3 +6,6 @@
 주판 
 
 <img width="426" alt="image" src="https://github.com/hyeonjun07/game/assets/107782350/465cfa8a-0851-4399-867c-790ccf076881">
+
+![image](https://github.com/hyeonjun07/game/assets/107782350/be325f97-1c97-431e-bbd9-6fab7d2a74ae)
+
