@@ -1,1 +1,50 @@
+function startGame() {
+    myGamePiece = new component(30, 30, "orange", 10, 120);
+    myGamePiece.gravity = 0.05;
+    myScore = new component("30px", "Consolas", ＂purple", 280, 40, "text");
+    myGameArea.start();
+    backgroundMusic = new Audio('HYPE BOY-NEWJEANS.mp3');
+        backgroundMusic.loop = true; // 반복 재생 설정
+        backgroundMusic.volume = 1.0; // 볼륨 조절
+        backgroundMusic.play();
+배경음악 삽입 부분
 
+drawBackground: function(){
+        var img = new Image();
+        img.src = '뉴진스.jpg';
+        this.context.drawImage(img, 0, 0, this.canvas.width, this.canvas.height);
+    }
+배경화면 삽입 부분
+
+function updateGameArea() {
+    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+    for (i = 0; i < myObstacles.length; i += 1) {
+        if (myGamePiece.crashWith(myObstacles[i])) {
+            backgroundMusic.pause();
+            displayFinalScore();
+            return;
+        } 
+    }
+
+function displayFinalScore() {
+            var finalScore = document.createElement("p");
+            finalScore.innerHTML = "Game Over! Your final score is: " + myGameArea.frameNo;
+            document.body.appendChild(finalScore);
+            var restartButton = document.createElement("button");
+            restartButton.textContent = "Restart";
+            restartButton.onclick = function () {
+                document.body.removeChild(finalScore);
+                restartGame();
+            };
+최종스코어 부분
+
+function restartGame() {
+            // Reset game components and start the game again
+            myObstacles = [];
+            myGamePiece.x = 10;
+            myGamePiece.y = 120;
+            myGamePiece.gravity = 0.05;
+            myGameArea.frameNo = 0;
+            startGame();
+    }
+재시작 부분
